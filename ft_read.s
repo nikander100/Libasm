@@ -1,7 +1,6 @@
 segment .text
 	global _ft_read
 
-
 _ft_read:
 	mov rax, 0x000003 ; syscall 3 (read)
 	syscall
